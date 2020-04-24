@@ -10,8 +10,8 @@ public class MyRestController {
     @Autowired
     private PostRepository myPosts;
 
-    @RequestMapping(value = "/api", method = RequestMethod.GET)
-    public Iterable<BlogPost> hello(){
+    @RequestMapping(value = "/api/posts", method = RequestMethod.GET)
+    public Iterable<BlogPost> getAllPosts(){
         return myPosts.findAll();
     }
 
