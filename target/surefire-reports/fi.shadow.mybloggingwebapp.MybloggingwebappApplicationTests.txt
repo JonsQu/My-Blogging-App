@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fi.shadow.mybloggingwebapp.MybloggingwebappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.668 s - in fi.shadow.mybloggingwebapp.MybloggingwebappApplicationTests

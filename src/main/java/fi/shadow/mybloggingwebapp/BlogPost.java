@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Date;
 
+
 @Entity
 public class BlogPost {
     @Id
@@ -34,11 +35,11 @@ public class BlogPost {
         return "BlogPost{" +
                 "id=" + id +
                 ", post='" + post + '\'' +
-                '}';
+                "}";
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
@@ -46,7 +47,7 @@ public class BlogPost {
     }
 
     public Date getCreationTime() {
-        return creationTime;
+        return this.creationTime;
     }
 
     public void setCreationTime(Date creationTime) {
@@ -54,7 +55,7 @@ public class BlogPost {
     }
 
     public String getPost() {
-        return post;
+        return this.post;
     }
 
     public void setPost(String post) {

@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>fi.shadow</groupId>
-    <artifactId>mybloggingwebapp</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>shadow-hunters</artifactId>
+    <version>r2</version>
     <name>mybloggingwebapp</name>
     <description>Web application blogging site</description>
 
